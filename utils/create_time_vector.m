@@ -14,10 +14,10 @@ function t_vect = create_time_vector(P)
 %   t_vect = create_time_vector(P);
 % 
 % History:
-%   4/2/19 - Initial version
-%   4/19/19 - Modified to have dt as a parameter
-%   4/24/19 - Modified to allow for fixed time step
-%   5/12/19 - Removed fixed time step
+%   Peter Schleede, 4/2/19 - Initial version
+%   Peter Schleede, 4/19/19 - Modified to have dt as a parameter
+%   Peter Schleede, 4/24/19 - Modified to allow for fixed time step
+%   Peter Schleede, 5/12/19 - Removed fixed time step
 
 persistent t_corr_location;
 
