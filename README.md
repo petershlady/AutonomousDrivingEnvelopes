@@ -5,10 +5,10 @@ This is a MATLAB implementation of [Safe driving envelopes for path tracking in 
 ## Prerequisites
 
 ```
-* MATLAB
-* [CVX](http://cvxr.com/cvx/)
+MATLAB
+CVX
 ```
-When this was tested with CVX for MATLAB on Windows 10, it was necessary to use the SeDuMi solver. On MacOS, the default SDPT3 solver worker fine. Try them both.
+When this was tested with [CVX](http://cvxr.com/cvx/) for MATLAB on Windows 10, it was necessary to use the SeDuMi solver. On MacOS, the default SDPT3 solver worker fine. Try them both.
 
 ## License
 
