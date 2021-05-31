@@ -60,7 +60,7 @@ d_c(1, 1, :) = (Ca_lin.*alpha_prev + Fyr) / (P.veh.mass * P.veh.Ux);
 A_c(2, 1, :) = P.veh.b*Ca_lin / P.veh.Izz;
 A_c(2, 2, :) = -P.veh.b^2*Ca_lin / (P.veh.Ux * P.veh.Izz);
 B_c_F(2) = P.veh.a / P.veh.Izz;
-d_c(2, 1, :) = -(P.veh.b*Fyr + Ca_lin.*alpha_prev) / P.veh.Izz;
+d_c(2, 1, :) = -P.veh.b*(Fyr + Ca_lin.*alpha_prev) / P.veh.Izz;
 
 % linearized d_psi dot is r - Ux*K(s)
 A_c(3, :, :) = repmat([0, 1, 0, 0, 0], 1, 1, P.prob.T_long);
